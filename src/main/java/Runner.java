@@ -8,7 +8,10 @@ public class Runner {
 
 //        SCOTTISH ISLANDS
         List<String> scottishIslands = new ArrayList<>();
+
+        scottishIslands.add("Tiree");
         scottishIslands.add("Jura");
+        scottishIslands.add("Islay")
         scottishIslands.add("Mull");
         scottishIslands.add("Skye");
         scottishIslands.add("Arran");
@@ -18,6 +21,7 @@ public class Runner {
         scottishIslands.add("Coll");
 
 //        2. Add "Tiree" to the start of the list
+
 //        3. Add "Islay" after "Jura" and before "Mull"
 //        4. Print out the index position of "Skye"
 //        5. Remove "Tresco" from the list by name
