@@ -51,7 +51,7 @@ public class Runner {
 
         System.out.println("numbers: " + numbers);
 
-//        1. Print out a list of the even integers
+//        1. Print out a list of the even integers DONE
         List<Integer> evenNumber = new ArrayList<>();
         for (int number : numbers){
 //            if the number is %2 with no remainder, the value is even
@@ -65,13 +65,14 @@ public class Runner {
 //        2. Print the difference between the largest and smallest value
 
 
-//        3. Print true if the list contains a 1 next to a 1 somewhere
+//        3. Print true if the list contains a 1 next to a 1 somewhere DONE
+//        done but not printing?
 
         if (numbers.contains("1")){
             System.out.println("true");
         }
 
-//        4. Print the sum of the numbers
+//        4. Print the sum of the numbers DONE
 
         int sum = 0;
         for (int number : numbers) {
@@ -85,8 +86,16 @@ public class Runner {
 //          HINT - You will need to track the index throughout the loop
 //
 //          So [7, 13, 2] would have sum of 9.
-
-//        will need to use break
+//        int Bigsum = 0;
+//        for (int number : numbers) {
+//            Bigsum += number;
+//         if (sum == 13) {
+//            break;
+//        }
+//        System.out.println(Bigsum);
+//
+//        will need to use break??
+//        attempt but confused on what direction to take
 
     }
 }
