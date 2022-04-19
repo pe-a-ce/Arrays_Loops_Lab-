@@ -40,7 +40,7 @@ public class Runner {
         Collections.sort(scottishIslands);
 
 //        9. Print out all the islands using a for loop DONE
-        for (String name: scottishIslands){
+        for (String name : scottishIslands) {
             System.out.println(name);
         }
 //        System.out.println(scottishIslands);
@@ -52,9 +52,33 @@ public class Runner {
         System.out.println("numbers: " + numbers);
 
 //        1. Print out a list of the even integers
+        List<Integer> evenNumber = new ArrayList<>();
+        for (int number : numbers){
+//            if the number is %2 with no remainder, the value is even
+            if (number % 2 ==0 ){
+                evenNumber.add(number);
+
+            }
+        }
+        System.out.println("The even integers are:" + evenNumber);
+
 //        2. Print the difference between the largest and smallest value
+
+
 //        3. Print true if the list contains a 1 next to a 1 somewhere
+
+        if (numbers.contains("1")){
+            System.out.println("true");
+        }
+
 //        4. Print the sum of the numbers
+
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        System.out.println(sum);
+
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
 //           ...and numbers that come immediately after a 13 also do not count
@@ -62,6 +86,8 @@ public class Runner {
 //
 //          So [7, 13, 2] would have sum of 9.
 
-    }
+//        break
 
+    }
 }
+
