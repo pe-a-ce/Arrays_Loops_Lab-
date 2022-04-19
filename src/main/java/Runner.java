@@ -11,20 +11,25 @@ public class Runner {
 
         scottishIslands.add("Tiree");
         scottishIslands.add("Jura");
-        scottishIslands.add("Islay")
+        scottishIslands.add("Islay");
         scottishIslands.add("Mull");
         scottishIslands.add("Skye");
         scottishIslands.add("Arran");
         scottishIslands.add("Tresco");
 
-//        1. Add "Coll" to the end of the list
+//        1. Add "Coll" to the end of the list DONE
         scottishIslands.add("Coll");
 
-//        2. Add "Tiree" to the start of the list
+//        2. Add "Tiree" to the start of the list DONE
 
-//        3. Add "Islay" after "Jura" and before "Mull"
-//        4. Print out the index position of "Skye"
-//        5. Remove "Tresco" from the list by name
+//        3. Add "Islay" after "Jura" and before "Mull" DONE
+
+//        4. Print out the index position of "Skye" DONE
+        System.out.println(scottishIslands.indexOf("Skye"));
+
+//        5. Remove "Tresco" from the list by name DONE
+        scottishIslands.remove("Tresco");
+        
 //        6. Remove "Arran" from the list by index
 //        7. Print the number of islands in your arraylist
 //        8. Sort the list alphabetically
